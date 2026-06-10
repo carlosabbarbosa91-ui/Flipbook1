@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: #1f1f1f;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#book {
+  box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+}

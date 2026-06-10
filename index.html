@@ -20,3 +20,10 @@
 <button id="fullscreen-btn">⛶ Ecrã inteiro</button>
   </body>
 </html>
+document.getElementById('fullscreen-btn').addEventListener('click', () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+});
